@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/4edc683ffb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container mx-auto bg-blue-200 rounded-md text-center">
+        <h1 class="font-extrabold text-5xl pt-5">My Text Editor</h1>
+
+        <div class="w-[80%] mx-auto bg-blue-100 my-10 py-4 rounded-md border-2 border-black">
+            <div class="flex justify-between border-b-2 border-black">
+                <div class="flex justify-around gap-4 pl-5 ml-4 text-2xl">
+                    <button class="font-bold" id="bold-btn">B</button>
+                    <button class="italic" id="italic-btn1">I</button>
+                    <button class="underline " id="underline-btn">U</button>
+                </div>
+                <div class="flex justify-around gap-4 ml-4 text-2xl">
+                    <i id="right-align" class="fa-solid fa-align-right"></i>
+                    <i id="left-align" class="fa-solid fa-align-left"></i>
+                    <i id="center-align" class="fa-solid fa-align-center"></i>
+                    <i id="center-equal-align" class="fa-solid fa-align-justify"></i>
+                </div>
+                <div class="flex justify-between gap-6 pr-12">
+                    <div class="">
+                       <label for="">
+                        <input id="font-size" class="w-10 rounded-md" type="number" name="" id="">
+                       </label>
+                       
+                    </div>
+                    <div>
+                        <input type="color" name="" id="color-input">
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <textarea id="text-area" class="w-[95%] my-5 text-xl" name="" id="" cols="30" rows="20"></textarea>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="prectice-3.js"></script>
+</body>
+</html>
